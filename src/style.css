@@ -124,10 +124,6 @@ footer {
     outline:4px solid black;
 }
 
-#section1>.section-text-img>.image-side {
-    background-image: url("images/dashboard.png");
-}
-
 
 .image-side>button {
     font-family: 'Komika Axis', sans-serif;
@@ -144,12 +140,6 @@ footer {
 
 }
 
-
-
-#section2>.section-text-img>.image-side {
-    background-image: url("images/Splash\ Screen.png")
-}
-
 .section-text-img {
 
     max-width: 650px;
@@ -161,10 +151,60 @@ footer {
 
 }
 
+
+#section1>.section-text-img>.image-side {
+    background-image: url("images/dashboard.png");
+}
+
+#section2>.section-text-img>.image-side {
+    background-image: url("images/Splash\ Screen.png")
+}
+
 #section3>.section-text-img>.image-side {
     background-image: url("images/data\ science.jpg")
 }
 
 #section4>.section-text-img>.image-side {
     background-image: url("gifs/spaceloop.gif")
+}
+
+
+.image-side>a {
+    font-family: 'Komika Axis', sans-serif;
+    padding:12px 24px;
+    background-color: rgb(42, 99, 255);
+    border-radius: 2rem;
+    margin:12px;
+    border:0;
+    color:white;
+    font-size:larger;
+    text-shadow: 2px 2px 0 black;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    text-decoration:none;
+
+}
+
+#website1>.section-text-img>.image-side {
+    background-image: url("images/calculator.png");
+}
+
+#website2>.section-text-img>.image-side {
+    background-image: url("images/dashboard.png");
+}
+
+#website3>.section-text-img>.image-side {
+    background-image: url("images/restaurant.png");
+}
+
+#website4>.section-text-img>.image-side {
+    background-image: url("images/library.png");
+}
+
+#website5>.section-text-img>.image-side {
+    background-image: url("images/sign-up.png");
+}
+
+#website6>.section-text-img>.image-side {
+    background-image: url("images/landing.png");
 }

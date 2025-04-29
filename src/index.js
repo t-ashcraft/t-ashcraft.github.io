@@ -1,6 +1,7 @@
 import './style.css';
 
 import {loadHome} from "./home";
+import {loadWebsites} from "./websites";
 
 const content = document.getElementById("content");
 
@@ -72,6 +73,7 @@ homeBtn.addEventListener("click", function() {
 
 websiteBtn.addEventListener("click", function() {
     clearContent();
+    loadWebsites(content);
 });
 
 gamedevBtn.addEventListener("click", function() {
