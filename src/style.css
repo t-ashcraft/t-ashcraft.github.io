@@ -26,6 +26,7 @@ header>nav>button{
     color:white;
     font-size:larger;
     text-shadow: 2px 2px 0 black;
+    cursor: pointer;
 }
 
 #content{
@@ -139,6 +140,8 @@ footer {
     font-size:larger;
     text-shadow: 2px 2px 0 black;
     box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+
 }
 
 
