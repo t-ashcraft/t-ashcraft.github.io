@@ -16,16 +16,25 @@ const socialBtn = document.querySelector("#social");
 
 function clearContent() {
     content.innerHTML = "";
+    window.scrollTo({
+        top: 0,
+        behavior: 'auto'
+    });
 }
+
+
+
+
+
 
 
 // comment out while working on other pages
 loadHome(content);
 
+let ticker = document.querySelector("#ticker");
 
 
 const titles = ["game developer", "software designer", "problem solver", "eagle scout", "boilermaker", "data science researcher"];
-let ticker = document.querySelector("#ticker");
 
 
 let titleIndex = 0;
@@ -66,11 +75,59 @@ function typeTicker() {
 
 typeTicker(ticker);
 
+let websiteBtn2 = document.querySelector("#website-button");
+let gamedevBtn2 = document.querySelector("#gamedev-button");
+let careerBtn2 = document.querySelector("#career-button");
+let socialBtn2 = document.querySelector("#socials-button");
+websiteBtn2.addEventListener("click", function() {
+    clearContent();
+    loadWebsites(content);
+});
+
+gamedevBtn2.addEventListener("click", function() {
+    clearContent();
+    loadGameDev(content);
+});
+
+careerBtn2.addEventListener("click", function() {
+    clearContent();
+    loadCareer(content);
+});
+
+socialBtn2.addEventListener("click", function() {
+    clearContent();
+    loadSocial(content);
+});
+
 homeBtn.addEventListener("click", function() {
     clearContent();
     loadHome(content);
     ticker = document.querySelector("#ticker");
     typeTicker();
+
+    websiteBtn2 = document.querySelector("#website-button");
+    gamedevBtn2 = document.querySelector("#gamedev-button");
+    careerBtn2 = document.querySelector("#career-button");
+    socialBtn2 = document.querySelector("#socials-button");
+    websiteBtn2.addEventListener("click", function() {
+        clearContent();
+        loadWebsites(content);
+    });
+    
+    gamedevBtn2.addEventListener("click", function() {
+        clearContent();
+        loadGameDev(content);
+    });
+    
+    careerBtn2.addEventListener("click", function() {
+        clearContent();
+        loadCareer(content);
+    });
+    
+    socialBtn2.addEventListener("click", function() {
+        clearContent();
+        loadSocial(content);
+    });
     
 });
 
