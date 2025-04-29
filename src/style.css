@@ -237,3 +237,9 @@ footer {
 #career3>.section-text-img>.image-side {
     background-image: url("images/millies.jpg");
 }
+
+#socials>.section-text {
+    max-width: 750px;
+    font-size:large;
+    text-align: left;
+}

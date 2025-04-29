@@ -4,6 +4,7 @@ import {loadHome} from "./home";
 import {loadWebsites} from "./websites";
 import {loadGameDev} from "./gamedev";
 import {loadCareer} from "./career";
+import {loadSocial} from "./social";
 
 const content = document.getElementById("content");
 
@@ -90,4 +91,5 @@ careerBtn.addEventListener("click", function() {
 
 socialBtn.addEventListener("click", function() {
     clearContent();
+    loadSocial(content);
 });
