@@ -208,3 +208,20 @@ footer {
 #website6>.section-text-img>.image-side {
     background-image: url("images/landing.png");
 }
+
+#game1>.section-text-img {
+
+    max-width: 750px;
+    font-size:large;
+    display:grid;
+    grid-template-columns: 2fr 1fr; 
+    align-items:center;
+    gap:20px;
+
+}
+
+
+#game1>.section-text-img>.image-side {
+    background-image: url("images/Splash\ Screen.png");
+}
+
