@@ -3,6 +3,7 @@ import './style.css';
 import {loadHome} from "./home";
 import {loadWebsites} from "./websites";
 import {loadGameDev} from "./gamedev";
+import {loadCareer} from "./career";
 
 const content = document.getElementById("content");
 
@@ -18,7 +19,7 @@ function clearContent() {
 
 
 // comment out while working on other pages
-//loadHome(content);
+loadHome(content);
 
 
 
@@ -84,6 +85,7 @@ gamedevBtn.addEventListener("click", function() {
 
 careerBtn.addEventListener("click", function() {
     clearContent();
+    loadCareer(content);
 });
 
 socialBtn.addEventListener("click", function() {

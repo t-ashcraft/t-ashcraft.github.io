@@ -225,3 +225,15 @@ footer {
     background-image: url("images/Splash\ Screen.png");
 }
 
+#career1>.section-text-img>.image-side {
+    background-image: url("images/laptoptech.jpg");
+    background-position: top;
+}
+
+#career2>.section-text-img>.image-side {
+    background-image: url("images/data\ science.jpg");
+}
+
+#career3>.section-text-img>.image-side {
+    background-image: url("images/millies.jpg");
+}
