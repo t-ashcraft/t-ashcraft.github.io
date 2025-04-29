@@ -29,8 +29,8 @@ header>nav>button{
 
 #content{
     width:100vw;
-    height:85vh;
-    margin-top:6rem;
+    min-height:85vh;
+    /*margin-top:6rem;*/
 }
 
 footer {
@@ -44,3 +44,35 @@ footer {
     justify-content: center;
     align-items:center;
 }
+
+#name-section {
+    background-image: url('gifs/spaceloop.gif');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+
+#name, #name2{
+    font-family: 'Komika Axis', sans-serif;
+    font-size:4rem;
+    color:white;
+}
+
+#ticker {
+    margin-top:24px;
+    height:2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-size:2rem;
+    color:white;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid white;
+    display: inline-block;
+    padding-right: 5px;
+}
+
